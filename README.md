@@ -28,6 +28,16 @@ Then open it in browser, that's it!
 
 - [qrcode.js](https://davidshimjs.github.io/qrcodejs/) Cross-browser QRCode generator for javascript
 
+## History
+
+### master
+
+### v0.2 (Jun 30, 2020)
+
+1. Init code base
+1. Show QR Code in browser without any backend service
+1. Make beautiful project icon image
+
 ## Author
 
 [Huan LI](https://github.com/huan) ([李卓桓](http://linkedin.com/in/zixia)),
