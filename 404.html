@@ -18,6 +18,7 @@
         // Get the part after the latest `/`
         const RE = /^\/qrcode\/(.*)$/i
         const qrcode = window.location.pathname.match(RE)[1]
+        console.log(window.location.pathname, '->', qrcode)
         new QRCode('qrcode').makeCode(qrcode)
       }
 
