@@ -15,8 +15,9 @@
     <script type="text/javascript">
 
       function showQrCode () {
-        const urlParams = new URLSearchParams(window.location.search)
-        const qrcode = urlParams.get('qrcode')
+        // Get the part after the latest `/`
+        const RE = /\/([^/]*?)\/?$/
+        const qrcode = window.location.pathname.match(RE)[1]
         new QRCode('qrcode').makeCode(qrcode)
       }
 
