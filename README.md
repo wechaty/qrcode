@@ -8,15 +8,15 @@ Add your QR Code to the end of the URL of `https://wechaty.github.io/qrcode/`:
 
 ```ts
 const QRCODE_URL = 'https://wechaty.github.io/qrcode/'
-const url = QRCODE_URL + 'https://github.com'
+const url = QRCODE_URL + 'https://wechaty.github.io/qrcode/'
 
 console.log(url)
-// Output https://wechaty.github.io/qrcode/https://github.com
+// Output https://wechaty.github.io/qrcode/https://wechaty.github.io/qrcode/
 ```
 
 Then open it in browser, that's it!
 
-> Click me: <https://wechaty.github.io/qrcode/https://github.com>
+> Click me: <https://wechaty.github.io/qrcode/https://wechaty.github.io/qrcode/>
 
 ## Thanks
 
