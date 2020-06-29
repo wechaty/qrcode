@@ -10,15 +10,19 @@ Add your QR Code to the end of the URL of `https://wechaty.github.io/qrcode/` th
 
 ```ts
 const QRCODE_URL = 'https://wechaty.github.io/qrcode/'
-const url = QRCODE_URL + 'https://wechaty.github.io/qrcode/'
+const url = QRCODE_URL + 'https://login.weixin.qq.com/l/YYk19JaKVA=='
 
 console.log(url)
-// Output https://wechaty.github.io/qrcode/https://wechaty.github.io/qrcode/
+// Output https://wechaty.github.io/qrcode/https://login.weixin.qq.com/l/YYk19JaKVA==
 ```
 
 Then open it in browser, that's it!
 
-> Click me: <https://wechaty.github.io/qrcode/https://wechaty.github.io/qrcode/>
+> Click me: <https://wechaty.github.io/qrcode/https://login.weixin.qq.com/l/YYk19JaKVA==>
+
+## API
+
+`https://wechaty.github.io/qrcode/` + QR Code
 
 ## Thanks
 
