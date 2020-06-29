@@ -1,10 +1,12 @@
 # qrcode
 
-QRCode generator for in your browser
+Wechaty QR Code Online API Service
+
+![Wechaty QR Code](wechaty-qrcode.png)
 
 ## Usage
 
-Add your QR Code to the end of the URL of `https://wechaty.github.io/qrcode/`:
+Add your QR Code to the end of the URL of `https://wechaty.github.io/qrcode/` then paste it to your browser to display the QR Code image.
 
 ```ts
 const QRCODE_URL = 'https://wechaty.github.io/qrcode/'
@@ -31,6 +33,6 @@ Microsoft Regional Director, \<zixia@zixia.net\>
 
 ## Copyright & License
 
-* Code & Docs © 2020 Huan LI \<zixia@zixia.net\>
-* Code released under the Apache-2.0 License
-* Docs released under Creative Commons
+- Code & Docs © 2020 Huan LI \<zixia@zixia.net\>
+- Code released under the Apache-2.0 License
+- Docs released under Creative Commons
