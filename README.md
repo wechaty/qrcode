@@ -14,7 +14,9 @@ console.log(url)
 // Output https://wechaty.github.io/qrcode/https://github.com
 ```
 
-Then open it(<https://wechaty.github.io/qrcode/https://github.com>) in browser, that's it!
+Then open it in browser, that's it!
+
+> Click me: <https://wechaty.github.io/qrcode/https://github.com>
 
 ## Author
 
