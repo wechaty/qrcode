@@ -18,6 +18,10 @@ Then open it in browser, that's it!
 
 > Click me: <https://wechaty.github.io/qrcode/https://github.com>
 
+## Thanks
+
+- [qrcode.js](https://davidshimjs.github.io/qrcodejs/) Cross-browser QRCode generator for javascript
+
 ## Author
 
 [Huan LI](https://github.com/huan) ([李卓桓](http://linkedin.com/in/zixia)),
